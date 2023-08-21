@@ -1,0 +1,15 @@
+---
+title: "day6_warmup"
+format: html
+editor: visual
+---
+
+## Warm up
+
+```{r}
+color_animal <- c("brown bear", "red bird", "yellow duck", "blue horse")
+
+for (i in 1:(length(color_animal)-1)){
+  print(paste(color_animal[i], color_animal[i],"what do you see? I see a", color_animal[i+1], "looking at me"))
+}
+```
